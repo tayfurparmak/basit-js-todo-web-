@@ -1,0 +1,81 @@
+body {
+ margin: 0;
+ padding: 0;
+ background: rgb(9, 68, 230);
+ font-family:sans-serif;
+
+}
+
+.container {
+     width: 100%;
+     text-align: center;
+     margin-top: 100px;
+}
+
+#title{
+
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#inputText{
+    width:300px;
+    height: 46px;
+    border: 1px solid black;
+    outline:none;
+    font-size :25px;
+    vertical-align: middle;
+    border:3px solid purple;
+    border-radius: 15px;
+    color:black;
+}
+
+#inputAdd {
+    height: 46px;
+    width:80px;
+    border : 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor:pointer;
+    background-color:green;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+}
+#inputAdd:active {
+    background-color:brown;
+    color: aliceblue;
+}
+
+#inputClear {
+    height: 46px;
+    width: 100px;
+    border : 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor:pointer;
+    background-color:rgb(128, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#inputClear:active{
+    background: #000;
+}
+
+.paragraf-style{
+    margin:0;
+    cursor:pointer;
+    font-size: 35px;
+    color:purple;
+    text-transform: capitalize;
+
+
+}
+.to-dos{
+    margin-top:50px;
+}
